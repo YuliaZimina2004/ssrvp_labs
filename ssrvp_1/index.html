@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ССРВП_лаба1_Ермаков_4.205-2</title>
+    <script defer src="lab1.js"></script>
+</head>
+<body>
+
+    <h1>Счётчик</h1>
+    <p id="counter">0</p>
+    <button id="increment" onclick="increment()">+</button>
+    <button id="decrement">-</button> 
+
+    <h1>Форма аутентификации</h1>
+    <form id="authForm">
+        <label for="login">Логин:</label>
+        <input type="text" id="login" name="login" required>
+        <br>
+        <label for="password">Пароль:</label>
+        <input type="password" id="password" name="password" required>
+        <br>
+        <button type="submit">Войти</button>
+        <button type="button" id="clearForm">Очистить</button>
+    </form>
+    
+    <p id="authMessage"></p>
+
+</body>
+</html>
